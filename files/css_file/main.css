@@ -1,0 +1,140 @@
+/*--------------------NAVIGATION--------------------*/
+ul {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 20px;
+	position: fixed;
+	width: 90%;
+}
+
+li{
+	display: inline;
+	padding: 0 20px 0;
+	float: right;
+	font-family: "Lucida Console", monospace;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link {
+	color: DimGray;
+	text-decoration: none;
+}
+
+a:visited {
+	color: LightSlateGray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: DarkGray;
+	text-decoration: none;
+}
+
+a:active {
+    color: RosyBrown;
+	text-decoration: none;
+}
+
+/*--------------------MAIN FORMAT--------------------*/
+body {
+	background: #fffff0;
+	font-style: "Lucida Console", monospace, 30px, #ffffff;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: DimGray;	
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia, serif;
+}
+
+h5, p {
+	font-family: "Lucida Console", monospace;
+}
+
+img, .backround-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.image-center {
+	display: block;
+    margin: auto;
+}
+
+.image-left {
+	float: right;
+}
+
+.image-right {
+    float: left;
+}
+
+.background-image {
+	background-repeat: no-repeat;
+    background-position: center;	
+}
+
+.info-right {
+	padding-left: 30px;
+	padding-top: 150px;
+}
+
+.info-left {
+    padding-right: 30px;
+	padding-top: 0;
+}
+/*--------------------HOME LAYOUT--------------------*/
+
+/*--------------------PORFOLIO LAYOUT--------------------*/
+.portfolio-content {
+	padding-top: 80px;
+}
+
+img.portfolio {
+	padding: 20px;
+}
+
+.my-picture {
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+.notes-right {
+	float: left;
+	padding-left: 30px;
+	padding-right: 250px;
+	padding-bottom: 30px;
+}
+
+button.left {
+	float: right;
+	margin-top: 250px;
+}
+
+button.right {
+    float: left;
+	margin-top: 250px;
+}
+/*--------------------ABOUT ME LAYOUT--------------------*/
+.column {
+	float: left;
+	width: 50%;
+}
+
+.social-media-icon {
+	display: inline;
+	padding-left: 50px;
+}
+/*--------------------BLOG LAYOUT--------------------*/
+.blog {
+	padding: 100px 200px 30px;
+}
+
+hr {
+	width: 80%;
+	position: center;
+}
